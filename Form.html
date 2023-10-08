@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link href="Form.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9zofWOXf8NgI0LZHVcWPpJtVov9Xi5sqKhZcI0_tgPw&s">
+</head>
+<body>
+    <h1>Signup form</h1>
+    <div class="main-div">
+        <div id="left">
+            <img src="space.png" width="100%" height="100%">
+        </div>
+        <div id="right">
+            <form action="#" autocomplete="off">
+            <label for="username">Username</label>
+            <span id="susername"></span><br>
+            <input type="text" id="username"><br>
+
+            <label for="email">Email id</label>
+            <span id="semail"></span><br>
+            <input type="email" id="email" placeholder="abc@gmail.com"><br>
+
+
+            <label for="password">Password</label>
+            <span id="spassword"></span><br>
+            <input type="password" placeholder="****" id="password"><br>
+
+
+            <label for="password2">Re-enter Password</label>
+            <span id="spassword2"></span><br>
+            <input type="password" placeholder="****" id="password2"><br>
+
+
+            <label for="pnumber">Phone number</label>
+            <span id="spnumber"></span><br>
+            <input type="text" placeholder="Don't write +91 " id="pnumber"><br>
+
+
+            <button type="submit" id="btn" onclick="validation()">Sign up</button><br>
+            <a href="" id="link">Existing User ? Sign in</a>
+            </form>
+        </div>
+    </div>
+    <script src="Form.js"></script>
+</body>
+</html>

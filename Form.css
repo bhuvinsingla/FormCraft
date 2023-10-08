@@ -1,0 +1,67 @@
+body{
+    border: 0 ;
+    margin: 0%;
+    padding: 0%;
+    background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwoIBwcHCAgIBwcHBgoGBwcHBw8ICQcWFREiFhURHxMYHSggGBolGxMTITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NDw0NFSsZFRkrNysrLS0rKy0rKysrKysrKysrLTcrNysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIALEBHAMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAAAQIDB//EABcQAQEBAQAAAAAAAAAAAAAAAAARAYH/xAAYAQEBAQEBAAAAAAAAAAAAAAAAAQMCBP/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oADAMBAAIRAxEAPwDxkUepUUAAAAAAUEFBUFARSAAAAAoCggoCCgAAUAUoAFBUFAESsig4AAoKBUFAQWAIKKIKcQRQVQAAUBBQKigKAAAAAACgIKgAAIKDOoooVIKQKgoFQUCoKC1BQKgoFQUgAAoAFAUEFAQUBBQWoKBUFAqABQWEVlUFAqCgVBYsCsigVFUFqCgVBYBUIoFQUBBQWoKBUUAqCgUAAAFQigVEaQKsFiwY1IRYRSpCKBUhFEKgoFQUFqCgVBUCgoLUFAqEUCpCKC1IRQKgoFQUCoKBUFArIoFahFix0yrMI1CBWYRoCswjQhWYRpAqCgVBQKkIoLUhFAqCoFQUFqCgVBQKigFQUCoKC1BQKiKBW4sFisagsIFQWECoRYQKgsIFRGkFqCgVBQKkFgFRGkFqCgVBQKgoLUFEKgqKUAQoigVBUCuoo6ZVBqEErMIsAqCgtQWAVBQKgqBUFBakFArIohUFBUIqBRFAqCgtQUCoKBUFArIoFdSKOmNBQKgoFQAKgoLUFAqI1EiFQUCoKCoigIKAiKC1BQKgoFQIIURQVBQERQK7RYiumVABAAAgCpCKBUFARFAQVBUFAQVAEURagACKCoKAgqQAIAAAgAOwK6ZAACKAgoCCoKgoCAAAICKCoigIKgAAqCgIAggoCCgqCoAAFdVB0zABAAAAVAAAAEAUAAQEA0AABU0ABNAABFAFABAABNAB/9k=");
+    background-size: cover;
+    font-family: sans-serif;
+}
+div{
+    /* border: 1px solid pink; */
+    border: 0px solid black;
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+    padding: 5px 0 5px;
+    text-transform: uppercase;
+}
+.main-div{
+    display: flex;
+    width: 55%;
+    height: auto;
+    margin: 0px auto;
+}
+#left{
+    width: 70%;
+    height: fit-content;
+}
+#right{
+    color: white;
+    width: 80%;
+    height: 100%;
+    padding: 8% 1% 1% 3%;
+}
+#btn{
+    padding: 5px;
+    margin: 10% 0 5% 0;
+    width: 100%;
+    box-shadow: none;
+}
+
+#right input{
+    margin: 1% 0px 5% 0px;
+    border: none;
+    border-bottom: 2px solid white;
+    padding: 0%;
+    background-color: transparent;
+    color: white;
+    width: 100%;
+    border-radius: 1%;
+}
+#link{
+    color: white;
+    text-decoration: none;
+}
+#right input:focus{
+    border-bottom: transparent;
+}
+#btn:hover{
+    background-color: #611bf7;
+    color: white;
+
+}
+span{
+    color: #ff3131;
+    
+}
