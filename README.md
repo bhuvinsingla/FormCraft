@@ -1,4 +1,5 @@
 FormCraft
+![Screenshot (7)](https://github.com/user-attachments/assets/19b1040e-289b-4b3d-8755-168db58bec04)
 
 FormCraft is a responsive and interactive signup form template designed to provide a seamless user experience. The form includes built-in validation rules for required fields, email validation, and password confirmation.
 
